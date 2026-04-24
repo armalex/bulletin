@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Widget Bulletin WordPress</title>
+    
+    <link rel="stylesheet" href="./bulletin.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            padding: 20px;
+        }
+        .wordpress-header {
+            background-color: #006633;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        .wordpress-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wordpress-header">
+        <h1>Mon Site Institutionnel (Simulation WordPress)</h1>
+        <p>Intégration du module Bulletin de Paie interactif.</p>
+    </div>
+
+    <div class="wordpress-content">
+        <h2>Votre Bulletin de Simulation</h2>
+        <p>Ajustez vos paramètres ci-dessous pour générer votre bulletin :</p>
+        
+        <!-- Le point de montage exact attendu par le widget -->
+        <div id="amx-bulletin"></div>
+        
+    </div>
+
+    <!-- Injection du script du simulateur (comme dans WordPress via wp_enqueue_script) -->
+    <script src="./bulletin.umd.cjs"></script>
+    
+</body>
+</html>

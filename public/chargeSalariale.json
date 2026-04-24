@@ -1,0 +1,379 @@
+{
+	"ChargesSociales": [
+		{
+			"APPLICATION": "4",
+			"INTITULE": "Nombre de jours de la convention forfait annuel  ",
+			"PATRONALE": "",
+			"RUBRIQUE": "53",
+			"SALARIALE": "",
+			"TYPE": "FACONVENTION"
+		},
+		{
+			"APPLICATION": "4",
+			"INTITULE": "Salaire de base",
+			"PATRONALE": "0.0",
+			"RUBRIQUE": "0101",
+			"SALARIALE": "0.0",
+			"TYPE": "BASESALAIRE"
+		},
+		{
+			"APPLICATION": "4",
+			"INTITULE": "Prime d'apporteur d'affaires ",
+			"PATRONALE": "0.0",
+			"RUBRIQUE": "1100",
+			"SALARIALE": "0.0",
+			"TYPE": "PRIMEAF"
+		},
+		{
+			"APPLICATION": "4",
+			"INTITULE": "Total du brut   ",
+			"PATRONALE": "0.0",
+			"RUBRIQUE": "3999",
+			"SALARIALE": "0.0",
+			"TYPE": "BRUT"
+		},
+		{
+			"APPLICATION": "2",
+			"INTITULE": "Vieillesse déplafonnée",
+			"PATRONALE": "2.020",
+			"RUBRIQUE": "4000",
+			"SALARIALE": "0.400",
+			"TYPE": "SB"
+		},
+		{
+			"APPLICATION": "2",
+			"INTITULE": "Vieillesse plafonnée",
+			"PATRONALE": "8.550",
+			"RUBRIQUE": "4010",
+			"SALARIALE": "6.900",
+			"TYPE": "PMSS"
+		},
+		{
+			"APPLICATION": "3",
+			"INTITULE": "FNAL plafonnée",
+			"PATRONALE": "0.1",
+			"RUBRIQUE": "4050",
+			"SALARIALE": "0.00",
+			"TYPE": "PMSS"
+		},
+		{
+			"APPLICATION": "3",
+			"INTITULE": "Allocation familiale",
+			"PATRONALE": "3.450",
+			"RUBRIQUE": "4060",
+			"SALARIALE": "0.00",
+			"TYPE": "SB"
+		},
+		{
+			"APPLICATION": "6",
+			"INTITULE": "Allocation familiale majoration",
+			"PATRONALE": "1.8",
+			"RUBRIQUE": "4070",
+			"SALARIALE": "0.00",
+			"TYPE": "SB"
+		},
+		{
+			"APPLICATION": "3",
+			"INTITULE": "Maladie",
+			"PATRONALE": "7.0",
+			"RUBRIQUE": "4080",
+			"SALARIALE": "0.00",
+			"TYPE": "SB"
+		},
+		{
+			"APPLICATION": "6",
+			"INTITULE": "Maladie majoration",
+			"PATRONALE": "6.0",
+			"RUBRIQUE": "4085",
+			"SALARIALE": "0.00",
+			"TYPE": "SB"
+		},
+		{
+			"APPLICATION": "3",
+			"INTITULE": "Accident du travail",
+			"PATRONALE": "0.670",
+			"RUBRIQUE": "4100",
+			"SALARIALE": "0.00",
+			"TYPE": "SB"
+		},
+		{
+			"APPLICATION": "3",
+			"INTITULE": "Solidarité autonomie",
+			"PATRONALE": "0.300",
+			"RUBRIQUE": "4120",
+			"SALARIALE": "0.00",
+			"TYPE": "SB"
+		},
+		{
+			"APPLICATION": "1",
+			"INTITULE": "Forfait social à 8% (prévoyance)  ",
+			"PATRONALE": "8.00",
+			"RUBRIQUE": "4350",
+			"SALARIALE": "0.00",
+			"TYPE": "FS8PRE"
+		},
+		{
+			"APPLICATION": "1",
+			"INTITULE": "CSG déductible",
+			"PATRONALE": "0.00",
+			"RUBRIQUE": "4500",
+			"SALARIALE": "6.80",
+			"TYPE": "CSG"
+		},
+		{
+			"APPLICATION": "3",
+			"INTITULE": "Versement mobilité",
+			"PATRONALE": "0.00",
+			"RUBRIQUE": "4600",
+			"SALARIALE": "0.00",
+			"TYPE": "SPECIAL"
+		},
+		{
+			"APPLICATION": "3",
+			"INTITULE": "Contribution au dialogue social  ",
+			"PATRONALE": "0.016",
+			"RUBRIQUE": "4740",
+			"SALARIALE": "0.00",
+			"TYPE": "SB"
+		},
+		{
+			"APPLICATION": "3",
+			"INTITULE": "Assurance chômage TA",
+			"PATRONALE": "4.00",
+			"RUBRIQUE": "4800",
+			"SALARIALE": "0.00",
+			"TYPE": "PMSS"
+		},
+		{
+			"APPLICATION": "7",
+			"INTITULE": "Assurance chômage TB  ",
+			"PATRONALE": "4.00",
+			"RUBRIQUE": "4810",
+			"SALARIALE": "0.00",
+			"TYPE": "SB-PMSS"
+		},
+		{
+			"APPLICATION": "3",
+			"INTITULE": "AGS TA + TB  ",
+			"PATRONALE": "0.250",
+			"RUBRIQUE": "4900",
+			"SALARIALE": "0.00",
+			"TYPE": "SB"
+		},
+		{
+			"APPLICATION": "2",
+			"INTITULE": "Retraite T1 ",
+			"PATRONALE": "4.720",
+			"RUBRIQUE": "6000",
+			"SALARIALE": "3.150",
+			"TYPE": "PMSS"
+		},
+		{
+			"APPLICATION": "2",
+			"INTITULE": "Retraite CEG T1  ",
+			"PATRONALE": "1.290",
+			"RUBRIQUE": "6008",
+			"SALARIALE": "0.860",
+			"TYPE": "PMSS"
+		},
+		{
+			"APPLICATION": "2",
+			"INTITULE": "Retraite CET T1  ",
+			"PATRONALE": "0.210",
+			"RUBRIQUE": "6015",
+			"SALARIALE": "0.140",
+			"TYPE": "PMSS"
+		},
+		{
+			"APPLICATION": "7",
+			"INTITULE": "Retraite CET T2 unifiée  ",
+			"PATRONALE": "0.210",
+			"RUBRIQUE": "6016",
+			"SALARIALE": "0.140",
+			"TYPE": "SB-PMSS"
+		},
+		{
+			"APPLICATION": "7",
+			"INTITULE": "Retraite T2 unifiée  ",
+			"PATRONALE": "12.950",
+			"RUBRIQUE": "6020",
+			"SALARIALE": "8.640",
+			"TYPE": "SB-PMSS"
+		},
+		{
+			"APPLICATION": "7",
+			"INTITULE": "Retraite CEG T2 unifiée  ",
+			"PATRONALE": "1.620",
+			"RUBRIQUE": "6028",
+			"SALARIALE": "1.080",
+			"TYPE": "SB-PMSS"
+		},
+		{
+			"APPLICATION": "2",
+			"INTITULE": "APEC Cadre T1+T2",
+			"PATRONALE": "0.036",
+			"RUBRIQUE": "6509",
+			"SALARIALE": "0.024",
+			"TYPE": "SB"
+		},
+		{
+			"APPLICATION": "3",
+			"INTITULE": "Prévoyance obligatoire Cadre sur TA",
+			"PATRONALE": "1.500",
+			"RUBRIQUE": "7130",
+			"SALARIALE": "0.00",
+			"TYPE": "PMSS"
+		},
+		{
+			"APPLICATION": "7",
+			"INTITULE": "Prévoyance obligatoire Cadre sur TB",
+			"PATRONALE": "1.380",
+			"RUBRIQUE": "7131",
+			"SALARIALE": "1.00",
+			"TYPE": "SB-PMSS"
+		},
+		{
+			"APPLICATION": "6",
+			"INTITULE": "Prévoyance obligatoire Cadre sur TC",
+			"PATRONALE": "1.380",
+			"RUBRIQUE": "7132",
+			"SALARIALE": "0.00",
+			"TYPE": "SB-PMSS"
+		},
+		{
+			"APPLICATION": "3",
+			"INTITULE": "Formation professionnelle",
+			"PATRONALE": "0.550",
+			"RUBRIQUE": "9500",
+			"SALARIALE": "0.00",
+			"TYPE": "SB"
+		},
+		{
+			"APPLICATION": "3",
+			"INTITULE": "Contribution complément formation",
+			"PATRONALE": "0.600",
+			"RUBRIQUE": "9505",
+			"SALARIALE": "0.00",
+			"TYPE": "SB"
+		},
+		{
+			"APPLICATION": "3",
+			"INTITULE": "Financement paritarisme sur brut",
+			"PATRONALE": "0.016",
+			"RUBRIQUE": "9510",
+			"SALARIALE": "0.00",
+			"TYPE": "SB"
+		},
+		{
+			"APPLICATION": "3",
+			"INTITULE": "Taxe d'apprentissage (part princ)",
+			"PATRONALE": "0.590",
+			"RUBRIQUE": "9600",
+			"SALARIALE": "0.00",
+			"TYPE": "SB"
+		},
+		{
+			"APPLICATION": "3",
+			"INTITULE": "Taxe d'apprentissage (solde)",
+			"PATRONALE": "0.090",
+			"RUBRIQUE": "9602",
+			"SALARIALE": "0.00",
+			"TYPE": "SB"
+		},
+		{
+			"APPLICATION": "3",
+			"INTITULE": "Médecine du travail",
+			"PATRONALE": "0.200",
+			"RUBRIQUE": "9700",
+			"SALARIALE": "0.00",
+			"TYPE": "SB"
+		},
+		{
+			"APPLICATION": "2",
+			"INTITULE": "Mutuelle obligatoire forfétaire",
+			"PATRONALE": "0.00",
+			"RUBRIQUE": "7623",
+			"SALARIALE": "0.00",
+			"TYPE": "SPECIAL"
+		},
+		{
+			"APPLICATION": "4",
+			"INTITULE": "Réintégration fiscale",
+			"PATRONALE": "0.00",
+			"RUBRIQUE": "7997",
+			"SALARIALE": "0.00",
+			"TYPE": "SPECIAL"
+		},
+		{
+			"APPLICATION": "1",
+			"INTITULE": "CSG non déductible",
+			"PATRONALE": "0.000",
+			"RUBRIQUE": "8000",
+			"SALARIALE": "2.90",
+			"TYPE": "CSG"
+		},
+		{
+			"APPLICATION": "5",
+			"INTITULE": "Tickets restaurants",
+			"PATRONALE": "0.00",
+			"RUBRIQUE": "8520",
+			"SALARIALE": "0.00",
+			"TYPE": "SPECIAL"
+		}
+	],
+	"titre": "Parametres de calcul des charges",
+	"ParametresChargesSociales":[
+	{
+			"INDEX": "1",
+			"LIBELLE" : "SMIC",
+			"VALEUR": "1801.8"
+	},
+	{
+			"INDEX": "2",
+			"LIBELLE" : "PMSS",
+			"VALEUR": "3925.8"
+	},
+	{
+			"INDEX": "3",
+			"LIBELLE" : "SMIC330",
+			"VALEUR": "5945,94"
+	},
+	{
+			"INDEX": "4",
+			"LIBELLE" : "PMSS400",
+			"VALEUR": "15700.00"
+	},
+	{
+			"INDEX": "5",
+			"LIBELLE" : "SMIC225",
+			"VALEUR": "4054,05"
+	},
+	{
+			"INDEX": "6",
+			"LIBELLE" : "BASECSG",
+			"VALEUR": "0.99"
+	},
+	{
+			"INDEX": "7",
+			"LIBELLE" : "MUTUELLE",
+			"VALEUR": "37.10"
+	},
+	{
+			"INDEX": "8",
+			"LIBELLE" : "FORFAITCONVENTION",
+			"VALEUR": "218"
+	},
+	{
+			"INDEX": "9",
+			"LIBELLE" : "FORFAITHORAIRE",
+			"VALEUR": "151.67"
+	},
+	{
+			"INDEX": "10",
+			"LIBELLE" : "TAUXAPPORTEUR",
+			"VALEUR": "0.05"
+	}
+	
+	
+	]
+}
