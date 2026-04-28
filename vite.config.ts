@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: "/cadreho/bulletin/",
+  base: "/cadreho/bulletinWidget/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
@@ -21,7 +21,6 @@ export default defineConfig({
       entry: fileURLToPath(new URL('./src/main.ts', import.meta.url)),
       name: 'AmxBulletin',
       fileName: 'bulletin',
-      formats: ['umd']
     },
     cssCodeSplit: false,
     rollupOptions: {
@@ -32,5 +31,8 @@ export default defineConfig({
         }
       }
     }
+  },
+  define: {
+    'process.env': {}
   }
 })
