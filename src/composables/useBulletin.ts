@@ -12,6 +12,7 @@ export interface BulletinParams {
 // import AmxListeCS from './AmxListeCS.vue'
 
 const parametresCharges = ref(null);
+const nomEntreprise = ref("CADREHO");
 const salaireBrutDebase = ref(0.0);
 const notesDeFrais = ref(0.0);
 const adhesionPerco = ref(0.0);
@@ -115,6 +116,9 @@ export function useBulletin(
     fetch("chargeSalariale.json")
       .then((res) => res.json())
       .then((data) => {
+        if (data.nomEntreprise) {
+          nomEntreprise.value = data.nomEntreprise;
+        }
         modeApporteur.value = modeApporteurParam;
         console.log("modeApporteur.value", modeApporteur.value);
         fraisGestionCadreho.value = tauxCadrehParam;
@@ -524,6 +528,7 @@ Calcuule l'intégralité du bulletin pour chaque ligne du fichierconsevée
   // return bulletinFinal;
 
   return {
+    nomEntreprise,
     bulletinFinal,
     bulletinEntete,
     bulletinCalcule,

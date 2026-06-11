@@ -11,7 +11,7 @@
     <div class="premier">
         <div>  <h4>Total salaire+charges   </h4> <h4>  {{ new Intl.NumberFormat().format(totalSalaireCharge)  }} € </h4></div>
         <div> <h4>Chiffre d'Affaires   </h4> <h4>  {{ new Intl.NumberFormat().format(estimationCA) }} €</h4></div>
-        <div> <h4>Frais Cadreho </h4> <h4>{{ new Intl.NumberFormat().format(fraisCadreho) }} €</h4></div>
+        <div> <h4>Frais {{ nomEntreprise }} </h4> <h4>{{ new Intl.NumberFormat().format(fraisCadreho) }} €</h4></div>
         <div> <h4>Chiffre d'Affaires net  </h4> <h4>  {{new Intl.NumberFormat().format(chiffreAffaireNet) }} €</h4></div>
    </div>
      
@@ -31,6 +31,7 @@ import { computed } from 'vue'
 import { useBulletin } from '../composables/useBulletin.ts'
 
 const {
+  nomEntreprise,
   salaireBrut,
   totalChargesPatronales,
   totalChargesSalariales,
